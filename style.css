@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height:70px;
+    box-shadow: 5px 3px 10px 8px rgb(193, 188, 188);
+}
+
+.headerrrr{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* box-shadow: 10px 0px 10px 5px; */
+}
+.hare{
+    color: rgb(0, 166, 255);
+    font-weight: bold;
+    padding-left: 5px;
+}
+.pahila{
+    display: flex;
+    position: relative;
+    right: 158px;
+}
+.option{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* right: 100px; */
+    top: 40px;
+}
+/* #one2{
+    border: 2px solid rgb(10, 109, 185);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(10, 109, 185);
+    position: relative;
+    /* right: 12px; */
+    top: -10;
+} */
+#one1{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    /* right: 32px; */
+    top: 6px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#one3{
+    position: relative;
+    top: 6px;
+    right: 12px;
+    font-weight: bold;
+}
+.triiip{
+    color: rgb(17, 144, 242);
+    text-decoration: none;
+}
+#ccc{
+    color: black;
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+    justify-content: center;
+    /* left: 60px; */
+}
+.menu{
+    border: 2px solid rgb(183, 181, 181);
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    padding-top: 12px;
+}
+.menu:hover{
+   box-shadow: 2px 2px 10px 2px gray;
+   transition-duration: 1s;
+}
+h3{
+    color:rgb(17, 144, 242);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.inbox{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.linee{
+ text-decoration: line-through;
+ color: gray;
+ 
+}
+footer{
+    position: relative;
+    top: 100px;
+    left: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    width: 40%;
+}
+.fut{
+    color: black;
+    padding: 5px;
+}
+.fott{
+    color: black;
+    padding: 5px;
+}
+.page2{
+    filter: blur(7px);   
+}
+.bluuu{
+    filter: blur(7px);
+}
+.page2cha{
+    height: 175px;
+    width: 280px;
+    border: 2px solid rgb(152, 151, 151);
+    position: relative;
+    bottom: 400px;
+    margin-left: 90px;
+    /* left: 450px;   */
+    border-radius: 5px;
+    /* display: flex; */
+
+}
+
+.boxcenter{
+    color: rgb(21, 21, 21);
+    padding-top: 5px;
+    display: flex;
+}
+.clr{
+    color: rgb(83, 82, 82);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    /* padding-top: 10px; */
+    left: 105px;
+}
+.page2box{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 5px;
+}
+.popo{
+    width: 220px;
+    height: 25px;
+    color: rgb(220, 217, 217);
+}
+.add{
+    position: relative;
+    top: 45px;
+    left: 238px;
+}
+button{
+    width: 85px;
+    height: 23px;
+    color: white;
+    background-color: rgb(0, 149, 255);
+    border: rgb(0, 149, 255);
+    border-radius: 2px;
+    position: relative;
+    right: 80px;
+}
+.page3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+    font-weight: bold;
+}
+#backkk{
+    color: black;
+    padding-right: 45px;
+}
+#taskk{
+    color: black;
+    padding-left: 45px;
+}
+#op{
+    position: relative;
+    top: 8px;
+    padding-right: 2px;
+}
+/* #plus{
+    color: black;
+    position: relative;
+    top: 10px;
+} */
+.lastmenu{
+    border: 2px solid rgb(0, 166, 255);
+    background-color: rgb(0, 166, 255);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 10px;
+}
+.lastone{
+    color: black;
+    position: relative;
+    top: 10px; 
+}
+#turulove{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 110px;
+    /* left: 450px; */
+    box-shadow: 1px 1px 5px 1px rgb(191, 188, 188);
+}
+@media screen and (min-width:280px) and (max-width:500px) {
+    span{
+        font-size: 26px;
+        position: relative;
+        top: -15px;
+        left: -28px;
+    }
+    span{
+        font-size: 28px;
+        position: relative;
+        top: -17px;
+        left: -30px;
+    }
+    .option {
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+       #one3{
+        display: none;
+    }
+    /* #one2 {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    } */
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        top: 60px;
+    }
+      .menu{
+        height: 270px;
+        width: 330px;
+        border-radius: 5px;
+        
+    }
+    .sel{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+    #one1{
+        background-color: black;
+        font-size: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(10, 109, 185);
+        color: white;
+    }
+    .bluuu{
+        filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page2cha{
+        position: relative;
+        right: 50px;
+        width: 280px;
+        bottom: 00px;
+        bottom: 250px;
+    }
+.senu{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+#senter{
+    height: 220px;
+    width: 320px;
+    position: relative;
+    left: 10px;  
+}
+.pahila{
+    display: none;
+}
+}
